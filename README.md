@@ -1,8 +1,15 @@
 # Summary Taks Week 2 Day 6-9
 
 ## Minggu 2
+
 #### Link Webiste Vercel
 https://personal-web-task-week2-day-6-9.vercel.app/
+
+### Link Recording
+https://drive.google.com/file/d/1Ohi3iQzem3BpTZaBNGH4HqW3IUTe29XA/view?usp=sharing
+
+### Task Day 10 ada disini
+https://github.com/hmfzh/personal-website-task-5
 
 ### Hari 6
 **Membuat Responsive Layout**
