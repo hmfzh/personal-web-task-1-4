@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  background: #ffde59;
+}
+
+.ul-flex {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.img-nav {
+  height: 50px;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+}
+
+.button-contact {
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 30px 10px 30px;
+}
+
+.section-me {
+  width: 80%;
+  background-color: #ffde59;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5%;
+  border: 5px solid black;
+}
+
+.article-me {
+  display: flex;
+  gap: 50px;
+}
+
+.intoduction {
+  padding: 30px;
+}
+
+.intoduction p {
+  text-align: justify;
+}
+
+.introduction-contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.button-introduction {
+  background-color: #ffde59;
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.button-introduction a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.introduction-download a {
+  background-color: black;
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+  gap: 8px; 
+  font-size: 16px; 
+  color: white; 
+  text-decoration: none;
+}
+
+h2,
+p {
+  font-weight: 500;
+}
+
+.sosmed {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.sosmed img {
+  align-items: center;
+  cursor: pointer;
+  width: 15%;
+  height: 15%;
+  margin: 15px 15px 15px 15px;
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  background-color: white;
+}
+
+.card img {
+  width: 450px;
+}
+
+.card h3 {
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.card p {
+  padding: 10px;
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.hover a:hover {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+
+.button-contact a:hover {
+  color: blue;
+}
+
+.form-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.header-name {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 40%;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea,
+option {
+  width: 100%;
+  font-size: 20px;
+}
+
+select {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button-submit {
+  background-color: #000;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15%;
+}
+
+.tech{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  pad: 0;
+}
+
+.hamburger-button{
+  display: none;
+
+}
+
+.hamburger-container {
+  background-color: #ffde59;
+}
+
+
+
+.hamburger-container-item {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.hamburger-button {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-link {
+    display: none;
+  }
+
+  .hamburger-button {
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+  /* body {
+    background-color: pink;
+  } */
+
+  .card {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+    background-color: white;
+    height: 5%;
+  }
+  
+  .card img {
+    width: 300px;
+  }
+
+  .nav-button{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 300px) {
+
+  /* body {
+    background-color: yellow !important;
+  } */
+
+  .card {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 70px;
+    background-color: white;
+    height: 5%;
+  }
+  
+  .card img {
+    width: 300px;
+  }
+
+  .nav-button{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .nav-button{
+    width: 60%;
+  }
+}
+
+
+
+@media only screen and (max-width: 930px) {
+  /* body {
+    background-color: blue !important;
+  } */
+
+  .article-me{
+    display: flex !important;
+    flex-direction: column;
+  }
+  
+  .card {
+    width:25%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    background-color: white;
+  }
+  
+  .card img {
+    width: 180px;
+  }
+  
+  .card h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .card p {
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  /* body {
+    background-color: black !important;
+  } */
+
+  
+  .card {
+    width:82%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    background-color: white;
+  }
+  
+  .card img {
+    width: 386px;
+  }
+  
+  .card h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .card p {
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  
+  
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: red !important;
+  } */
+  .card {
+    width:76%;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+  
+  .card img {
+    width: 237px;
+    justify-content: center;
+  }
+
+  .nav-link{
+    display: none;
+  }
+
+  .hamburger-button {
+    display: block;
+    margin-right: 20px !important;
+  }
+
+  .introduction-contact{
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .sosmed{
+    width: 200px;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+}

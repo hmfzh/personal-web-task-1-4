@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <link rel="stylesheet" href="asset/css/blog.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="ul-flex">
+        <img src="asset/img/logo.jpg" alt="" class="img-nav" />
+        <li class="hover"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="hover">
+          <a href="myproject.html" class="nav-link">My Project</a>
+        </li>
+        <li class="hover">
+          <a href="testimoni.html" class="nav-link">Testimonial</a>
+        </li>
+        <li class="nav-button">
+          <button class="button-contact nav-link">
+            <a href="contact.html" class="a-contact">Contact Me</a>
+            <button onclick="hamburgerToggle()" class="hamburger-button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="hamburger-container" class="hamburger-container hide">
+      <h1 class="hamburger-container-item hamburger-active hover">
+        <a style="color: white" class="hover" href="index.html"> Home </a>
+      </h1>
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="myproject.html"> My Project </a>
+      </h1>
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="contact.html"> Contact Me </a>
+      </h1>
+    </div>
+    <h1 class="header-name">GET IN TOUCH</h1>
+
+    <div class="form-layout">
+      <form action="" class="form-style" id="form-style">
+        <div>
+          <label for="">Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label for="">Email</label>
+          <input type="text" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="">Phone</label>
+          <input type="number" name="phone" id="phone" required />
+        </div>
+        <div>
+          <label for="">Subject</label>
+          <select name="" id="subject">
+            <option value="Fullstack Developer">Fullstack Developer</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Your Message</label>
+          <textarea name="" id="message"></textarea>
+        </div>
+        <div class="button-container">
+          <button class="button-submit" id="button-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="asset/js/app.js"></script>
+  </body>
+</html>

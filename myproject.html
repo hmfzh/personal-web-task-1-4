@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <title>Creating Blog Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <!-- <link rel="stylesheet" href="asset/css/blog.css" /> -->
+    <link rel="stylesheet" href="asset/css/myproject.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="ul-flex">
+        <img src="asset/img/logo.jpg" alt="" class="img-nav" />
+        <li class="hover"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="hover">
+          <a href="myproject.html" class="nav-link">My Project</a>
+        </li>
+        <li class="hover">
+          <a href="testimoni.html" class="nav-link">Testimonial</a>
+        </li>
+        <li class="nav-button">
+          <button class="button-contact nav-link">
+            <a href="contact.html" class="a-contact">Contact Me</a>
+            <button onclick="hamburgerToggle()" class="hamburger-button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="hamburger-container" class="hamburger-container hide">
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="index.html"> Home </a>
+      </h1>
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="myproject.html"> My Project </a>
+      </h1>
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="contact.html"> Contact Me </a>
+      </h1>
+    </div>
+
+    <h1 class="header-name">ADD MY PROJECT</h1>
+
+    <div class="form-layout">
+      <form
+        action=""
+        class="form-style"
+        id="form-style"
+        onsubmit="addProject(event)"
+      >
+        <div>
+          <label for="">Project Name</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div class="project-date">
+          <div class="start-date">
+            <label for="">Start Date</label>
+            <input type="date" name="start-date" id="start-date" required />
+          </div>
+          <div class="end-date">
+            <label for="">End Date</label>
+            <input type="date" name="end-date" id="end-date" required />
+          </div>
+        </div>
+
+        <div class="message">
+          <label for="">Your Message</label>
+          <textarea rows="5" cols="50" id="message"></textarea>
+        </div>
+
+        <div class="technologies">
+          <label>Technologies</label>
+          <div class="checkbox-group">
+            <label class="input-checkbox">
+              <input type="checkbox" name="technologies" value="NodeJs" id="NodeJs"/> Node
+              Js
+            </label>
+            <label class="input-checkbox">
+              <input type="checkbox" name="technologies" value="NextJs" id="NextJs"/> Next
+              Js
+            </label>
+            <label class="input-checkbox">
+              <input type="checkbox" name="technologies" value="ReactJs" id="ReactJs"/>
+              React Js
+            </label>
+            <label class="input-checkbox">
+              <input type="checkbox" name="technologies" value="TypeScript" id="TypeScript"/>
+              TypeScript
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <label>Upload Image</label>
+          <div class="input-project-image-group">
+            <input type="file" id="input-project-image" hid />
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button class="button-submit" id="button-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+   
+    <hr class="line" />
+    <h1 class="title-project">My Project</h1>
+    <div id="contents" class="project-list">
+      
+        </div>
+      </div>
+    </div>
+    <script src="asset/js/myProject.js"></script>
+    <script src="asset/js/app.js"></script>
+  </body>
+</html>

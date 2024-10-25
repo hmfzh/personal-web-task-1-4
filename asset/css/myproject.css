@@ -1,0 +1,208 @@
+.project-date{
+    display: flex;
+    flex-direction: row;
+    gap :2%
+}
+
+.start-date{
+    width: 50%;
+}
+
+.end-date{
+    width: 50%;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.input-checkbox{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.input-project-image-group {
+    
+    padding: 8px;
+   margin-top: 5px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+.input-project-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+
+  .input-project-image{
+    justify-content: center;
+  }
+  
+  .card-project-display{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+   
+}
+
+  .card-project {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid black;
+    /* margin: 0 auto */
+}
+    
+.card-content {
+    margin-top: 16px;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-duration {
+    font-size: 20px;
+    color: gray;
+    margin-top: 4px;
+}
+
+.card-description {
+    font-size: 30px;
+    color: #555;
+    margin-top: 8px;
+    line-height: 1.5;
+}
+
+.card-icons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 10px;
+    margin-top: 5px;
+    
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #3b82f6;
+    color: white;
+    width: 50%;
+}
+
+.delete-btn {
+    background-color: #ef4444;
+    color: white;
+    width: 50%;
+}
+
+.card-image-projet{
+    width: 100%;
+}
+
+.title-project{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+    margin:50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+        padding: 20px;
+      }
+
+      .project-date{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .start-date{
+        width: 100%;
+      }
+      .end-date{
+        width: 100%;
+      }
+      .technologies{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }  
+
+      .checkbox-group{
+        display: flex;
+        flex-direction: column;
+   
+        padding-left: 40px;
+      }
+      .input-checkbox{
+        width: 100%;
+      }
+      .button-submit{
+        width: 100%;
+      }
+      .card-project {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        padding: 16px;
+        text-align: center;
+        border: 1px solid black;
+        /* margin: 0 auto */
+    }
+}

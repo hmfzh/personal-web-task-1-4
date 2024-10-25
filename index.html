@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="ul-flex">
+        <img src="asset/img/logo.jpg" alt="" class="img-nav" />
+        <li class="hover"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="hover">
+          <a href="myproject.html" class="nav-link">My Project</a>
+        </li>
+        <li class="hover">
+          <a href="testimoni.html" class="nav-link">Testimonial</a>
+        </li>
+        <li class="nav-button">
+          <button class="button-contact nav-link">
+            <a href="contact.html" class="a-contact">Contact Me</a>
+            <button onclick="hamburgerToggle()" class="hamburger-button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="hamburger-container" class="hamburger-container hide">
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="index.html"> Home </a>
+      </h1>
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="myproject.html"> My Project </a>
+      </h1>
+      <h1 class="hamburger-container-item hover">
+        <a style="color: white" href="contact.html"> Contact Me </a>
+      </h1>
+    </div>
+
+    <section class="section-me">
+      <div class="article-me">
+        <div class="intoduction">
+          <h2>Hi Welcome to my hut</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In ea magni
+            dignissimos vitae amet, saepe nemo impedit reprehenderit nobis
+            repudiandae quam consequuntur illo ipsum sint, cumque possimus,
+            aperiam laborum magnam! Sint nam consequuntur quidem voluptate
+            eligendi cumque, esse doloribus, recusandae eaque enim, numquam
+            amet. Corporis illo, assumenda odio quaerat tempora ab non, atque
+            ullam ipsum ratione aut ut, fugiat ducimus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Veritatis tenetur distinctio
+            deleniti inventore natus, itaque quo est, voluptatum ullam qui ipsum
+            expedita officiis omnis perferendis eius dolores, eveniet illum
+            facilis.
+          </p>
+          <div class="introduction-contact">
+            <div>
+              <button class="button-introduction">
+                <a href="">Contact</a>
+              </button>
+            </div>
+            <div class="introduction-download">
+              <a href="">Download CV</a>
+            </div>
+          </div>
+
+          <div class="sosmed">
+            <img src="asset/img/icon_linkedin.png" />
+            <img src="asset/img/icon_instagram.png" />
+            <img src="asset/img/icon_facebook.png" />
+            <img src="asset/img/icon_twitter.png" />
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://img.freepik.com/premium-photo/ai-human-avatar-characters-male-model_1166271-38.jpg?w=740"
+            alt=""
+          />
+          <h3>Muhammad Ilham Hafizha</h3>
+          <p>Fullstack Developer</p>
+        </div>
+      </div>
+    </section>
+    <script src="asset/js/app.js"></script>
+  </body>
+</html>
