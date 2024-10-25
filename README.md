@@ -1,6 +1,8 @@
 # Summary Taks Week 2 Day 6-9
 
 ## Minggu 2
+#### Link Webiste Vercel
+https://personal-web-task-week2-day-6-9.vercel.app/
 
 ### Hari 6
 **Membuat Responsive Layout**
@@ -39,6 +41,7 @@ Saya telah mempelajari dan menerapkan beberapa higher-order functions seperti:
 **Mengambil Data JSON dari API**
 
 Saya berhasil mengambil data JSON dari API https://api.npoint.io/2bcee80ab0de785ddaa5 menggunakan Fetch API. Data yang diambil kemudian ditampilkan pada halaman.
+
 
 
 
